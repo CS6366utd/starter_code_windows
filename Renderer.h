@@ -13,6 +13,9 @@
 
 #include <nanogui/nanogui.h>
 
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+
 #include "Shader.h"
 #include "Camera.h"
 #include "Object.h"
